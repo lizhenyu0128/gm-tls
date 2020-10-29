@@ -1,0 +1,36 @@
+# github.com/Hyperledger-TWGC/ccs-gm v0.1.1
+## explicit
+github.com/Hyperledger-TWGC/ccs-gm/sm2
+github.com/Hyperledger-TWGC/ccs-gm/sm3
+github.com/Hyperledger-TWGC/ccs-gm/x509
+# github.com/PromonLogicalis/asn1 v0.0.0-20190312173541-d60463189a56
+## explicit
+# github.com/cihub/seelog v0.0.0-20170130134532-f561c5e57575
+## explicit
+github.com/cihub/seelog
+github.com/cihub/seelog/archive
+github.com/cihub/seelog/archive/gzip
+github.com/cihub/seelog/archive/tar
+github.com/cihub/seelog/archive/zip
+# github.com/piligo/gmsm v0.0.0-20200706150851-e9409cb66cec
+## explicit
+github.com/piligo/gmsm/sm2
+github.com/piligo/gmsm/sm3
+github.com/piligo/gmsm/sm4
+# github.com/piligo/gmssl v0.0.0-20200706153316-2a347d1e6c78
+## explicit
+github.com/piligo/gmssl
+# github.com/tjfoc/gmsm v1.3.2
+## explicit
+# golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
+## explicit
+golang.org/x/crypto/chacha20
+golang.org/x/crypto/chacha20poly1305
+golang.org/x/crypto/curve25519
+golang.org/x/crypto/internal/subtle
+golang.org/x/crypto/poly1305
+golang.org/x/crypto/ripemd160
+golang.org/x/crypto/sha3
+# golang.org/x/sys v0.0.0-20190412213103-97732733099d
+golang.org/x/sys/cpu
+golang.org/x/sys/unix

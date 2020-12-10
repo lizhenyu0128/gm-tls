@@ -11,7 +11,7 @@ import (
 	"crypto/rsa"
 	"crypto/sha1"
 	"errors"
-	"gm-tls/src/x509"
+	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io"
 	"math/big"
 

@@ -10,7 +10,7 @@ import (
 	"encoding/asn1"
 	"encoding/binary"
 	"errors"
-	"gm-tls/src/sm3"
+	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"io"
 	"math"
 	"math/big"

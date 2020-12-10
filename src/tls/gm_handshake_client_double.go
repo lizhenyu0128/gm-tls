@@ -14,8 +14,8 @@ import (
 	"crypto/subtle"
 	"errors"
 	"fmt"
-	"gm-tls/src/sm2"
-	"gm-tls/src/x509"
+	"github.com/lizhenyu0128/gm-tls/src/sm2"
+	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io"
 	"strconv"
 	"sync/atomic"
@@ -37,9 +37,9 @@ func makeClientHelloGM(config *Config) (*clientHelloMsg, error) {
 	}
 
 	hello := &clientHelloMsg{
-		vers:               config.GMSupport.GetVersion(),
-		compressionMethods: []uint8{compressionNone},
-		random:             make([]byte, 32),
+		vers:                         config.GMSupport.GetVersion(),
+		compressionMethods:           []uint8{compressionNone},
+		random:                       make([]byte, 32),
 		serverName:                   hostnameInSNI(config.ServerName),
 		supportedCurves:              config.curvePreferences(),
 		supportedPoints:              []uint8{pointFormatUncompressed},

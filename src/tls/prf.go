@@ -13,7 +13,7 @@ import (
 	"crypto/sha512"
 	"errors"
 	"fmt"
-	"gm-tls/src/sm3"
+	"github.com/lizhenyu0128/gm-tls/src/sm3"
 	"hash"
 )
 

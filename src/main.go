@@ -7,8 +7,8 @@ package main
 import (
 	"context"
 	"fmt"
-	"gm-tls/src/tls"
-	"gm-tls/src/x509"
+	"github.com/lizhenyu0128/gm-tls/src/tls"
+	"github.com/lizhenyu0128/gm-tls/src/x509"
 	"io/ioutil"
 	"net"
 	"net/http"
@@ -25,7 +25,7 @@ func main() {
 	}
 	c.CipherSuites = append(c.CipherSuites, tls.GMTLS_SM2_WITH_SM4_SM3)
 	c.MinVersion = c.GMSupport.GetVersion() //only gm support VersionGMSSL
-	c.RootCAs =  pool
+	c.RootCAs = pool
 	//tr, err := tls.Dial("tcp", "sm2test.ovssl.cn:https",
 	//	c)
 
